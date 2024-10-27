@@ -28,6 +28,7 @@ Demo from this repository:
   ],
   "profile": { "name": "typicode" }
 }
+```
 
 ## Reference
 
