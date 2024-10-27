@@ -19,21 +19,15 @@ Demo from this repository:
 ## Default `db.json`
 
 ```json
-"products": [
-    {
-      "image": {
-        "thumbnail": "/images/image-waffle-thumbnail.jpg",
-        "mobile": "/images/image-waffle-mobile.jpg",
-        "tablet": "/images/image-waffle-tablet.jpg",
-        "desktop": "/images/image-waffle-desktop.jpg"
-      },
-      "name": "Waffle with Berries",
-      "category": "Waffle",
-      "price": 6.5,
-      "id": 1,
-      "quantity": 1
-    },
-```
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
 
 ## Reference
 
